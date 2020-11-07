@@ -22,14 +22,37 @@ def ej1():
 
     # Realizar la suma de las dos variables
     # numero_1 y numero_2
+
+    numero_1 + numero_2
     # Almacenar el valor de la suma en una variable
     # ej:
     # operacion = .....
 
+    total = numero_1 + numero_2
     # Imprimir en pantalla el resultado de la suma
+
     # print(....)
+    print(total)
 
     # Repita el procedimiento para realizar la resta
+
+    # Ejercicios de práctica numérica
+    numero_1 = 5
+    numero_2 = 7
+
+    # Realizar la resta de las dos variables
+    # numero_1 y numero_2
+
+    numero_1 - numero_2
+    # Almacenar el valor de la resta en una variable
+    # ej:
+    # operacion = .....
+
+    total = numero_1 - numero_2
+    # Imprimir en pantalla el resultado de la suma
+
+    # print(....)
+    print(total)
 
 
 def ej2():
@@ -53,12 +76,16 @@ def ej2():
     # El resultado de sumar 4 y 2 es 6
 
     # Suma
+    print(f"El resultado de sumar {numero_1} y {numero_2} es {numero_1 + numero_2}")
 
     # Resta
+    print(f"El resultado de restar {numero_1} y {numero_2} es {numero_1 - numero_2}")
 
     # División
+    print(f"El resultado de dividir {numero_1} y {numero_2} es {numero_1 / numero_2:.2f}")
 
     # Multiplicación
+    print(f"El resultado de multiplicar {numero_1} y {numero_2} es {numero_1 * numero_2:.2f}")
 
 
 def ej3():
@@ -73,11 +100,14 @@ def ej3():
     apellido = str(input())
 
     # Imprima su nombre completo
+    print(f"Mi nombre es {nombre} {apellido}")
 
     # Almacenar su nombre completo en una variable
     # nombre_completo = .....
+    nombre_completo = nombre + apellido
 
     # Imprimir la cantidad de letras que posee su nombre completo
+    print(len(nombre_completo))
 
 
 def ej4():
@@ -97,7 +127,11 @@ def ej4():
     # De cada palabra debe tomar la primera letra y armar el acrónimo
     # Ejemplo: Alumbrado, barrido y limpieza --> ABL
     # Imprimir el resultado en pantalla
+    palabra_4 = palabra_1[0] + palabra_2[0] + palabra_3[0]
 
+    print(palabra_4)
+
+    # Palabra seleccionada Seguridad Tecnologia Informacion
 
 def ej5():
     # Ejemplos variables de texto
@@ -113,12 +147,19 @@ def ej5():
     # De la segunda palabra tome las últimas tres letras, utilice el operador :
     # Formar una nueva palabra con los recortes solicitados
     # Imprima en pantalla los resultados
+    palabra_3 = palabra_1[0:3] + palabra_2[6:]
+
+    print(palabra_3)
+
+    # Palabra seleccionada Sunset Boulevard
+
+
 
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    ej1()
-    # ej2()
-    # ej3()
-    # ej4()
-    # ej5()
+ej1()
+ej2()
+ej3()
+ej4()
+ej5()
